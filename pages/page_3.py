@@ -391,14 +391,14 @@ with st.container():
     st.markdown('## Os Melhores Restaurantes com as Principais Culinárias')
     col1, col2 = st.columns(2, gap = 'small')
     with col1:
-        st.markdown('##### Top 10 culinárias mais bem avaliadas')
+        st.markdown('##### Top 10 culinárias mais avaliações mais altas')
         cols = ['cuisines', 'aggregate_rating']
         df_aux = df1.loc[:, cols].groupby(['cuisines']).mean().sort_values(by='aggregate_rating', ascending = False).round(2).reset_index()
         df_aux = df_aux.rename(columns = {'cuisines': 'Culinárias', 'aggregate_rating': 'Avaliação Média'})
         fig = px.bar(df_aux.head(10), y = 'Avaliação Média', x = 'Culinárias', text_auto = True)
         st.plotly_chart(fig, use_container_width = True)
     with col2:
-        st.markdown('##### Top 10 culinárias mais bem avaliadas')
+        st.markdown('##### Top 10 culinárias com avaliações mais baixas')
         cols = ['cuisines', 'aggregate_rating']
         df_aux = df1.loc[:, cols].groupby(['cuisines']).mean().sort_values(by='aggregate_rating', ascending = True).round(2).reset_index()
         df_aux = df_aux.rename(columns = {'cuisines': 'Culinárias', 'aggregate_rating': 'Avaliação Média'})
