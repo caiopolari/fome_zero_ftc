@@ -308,9 +308,9 @@ with st.container():
     marker_cluster = MarkerCluster().add_to(map)
     for index, location_info in df_aux.iterrows():
         popup_text = ('<h3><b>' + location_info['restaurant_name'] + '</b></h3>' + '<br>' + 
-                      '<b>Price: </b>' + f'{location_info['average_cost_for_two_usd']}' + ' ' + '(' + location_info['currency'] + ')' + ' para dois' + '<br>' + 
+                      '<b>Price: </b>' + f"{location_info['average_cost_for_two_usd']}" + ' ' + '(' + location_info['currency'] + ')' + ' para dois' + '<br>' + 
                       '<b>Type: </b>' + location_info['cuisines'] + '<br>' + 
-                      '<b>Aggregate Rating: </b>' + f'{location_info['aggregate_rating']}' + '/5.0')
+                      '<b>Aggregate Rating: </b>' + f"{location_info['aggregate_rating']}" + '/5.0')
 
         folium.Marker([location_info['latitude'], 
                        location_info['longitude']], 
