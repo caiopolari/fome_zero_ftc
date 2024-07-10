@@ -109,37 +109,37 @@ O painel estratégico foi desenvolvido utilizando as métricas que refletem as 5
 
 ## 3.1. Geral:
 
-a. Quantidade de países cadastrados
-b. Quantidade de cidades cadastradas
-c. Quantidade de restaurantes cadastrados
-d. Quantidade de avaliações registradas
-e. Quantidade de culinárias cadastradas
+1. Quantidade de países cadastrados
+2. Quantidade de cidades cadastradas
+3. Quantidade de restaurantes cadastrados
+4. Quantidade de avaliações registradas
+5. Quantidade de culinárias cadastradas
 
 ## 3.2. País
 
-a. País com a maior quantidade de cidades registradas
-b. País com a maior quantidade de restaurantes registrados
-c. País com a maior quantidade de culinárias únicas
-d. País com a maior quantidade de restaurantes que fazem entregas
-e. País com a maior quantidade de restaurantes que fazem reservas
-f. Avaliação média de restaurantes por país
-g. Custo médio para duas pessoas por país (em USD)
+1. País com a maior quantidade de cidades registradas
+2. País com a maior quantidade de restaurantes registrados
+3. País com a maior quantidade de culinárias únicas
+4. País com a maior quantidade de restaurantes que fazem entregas
+5. País com a maior quantidade de restaurantes que fazem reservas
+6. Avaliação média de restaurantes por país
+7. Custo médio para duas pessoas por país (em USD)
 
 
 ## 3.3. Cidades
 
-a. 10 cidades com o custo mais alto para duas pessoas
-b. 10 cidades com maior variedade de culinárias
+1. 10 cidades com o custo mais alto para duas pessoas
+2. 10 cidades com maior variedade de culinárias
 
 ## 3.4. Restaurantes
 
-a. Os melhores restaurantes para as culinárias: americana, japonesa, italiana, árabe e caseira com informações de país, cidade e custo médio para duas pessoas
-b. Personalizar a culinária para obter o melhor restaurante da culinária de sua escolha
+1. Os melhores restaurantes para as culinárias: americana, japonesa, italiana, árabe e caseira com informações de país, cidade e custo médio para duas pessoas
+2. Personalizar a culinária para obter o melhor restaurante da culinária de sua escolha
 
 ## 3.5. Culinárias
 
-a. As culinárias com a média de avaliação mais alta
-b. As culinárias com a média de avaliação mais baixa
+1. As culinárias com a média de avaliação mais alta
+2. As culinárias com a média de avaliação mais baixa
 
 # 4. Top 3 insights de dados
 
