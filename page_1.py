@@ -303,12 +303,12 @@ with st.container():
 st.markdown ("""---""")
 
 with st.container():
-    df_aux = df1.loc[:, ['latitude', 'longitude', 'restaurant_name', 'average_cost_for_two', 'currency', 'cuisines', 'aggregate_rating', 'rating_color']]
+    df_aux = df1.loc[:, ['latitude', 'longitude', 'restaurant_name', 'average_cost_for_two_usd', 'currency', 'cuisines', 'aggregate_rating', 'rating_color']]
     map=folium.Map(location=[df_aux['latitude'].mean(), df_aux['longitude'].mean()], zoom_start=2)
     marker_cluster = MarkerCluster().add_to(map)
     for index, location_info in df_aux.iterrows():
         popup_text = ('<h3><b>' + location_info['restaurant_name'] + '</b></h3>' + '<br>' + 
-                      '<b>Price: </b>' + f'{location_info['average_cost_for_two']}' + ' ' + '(' + location_info['currency'] + ')' + ' para dois' + '<br>' + 
+                      '<b>Price: </b>' + f'{location_info['average_cost_for_two_usd']}' + ' ' + '(' + location_info['currency'] + ')' + ' para dois' + '<br>' + 
                       '<b>Type: </b>' + location_info['cuisines'] + '<br>' + 
                       '<b>Aggregate Rating: </b>' + f'{location_info['aggregate_rating']}' + '/5.0')
 
