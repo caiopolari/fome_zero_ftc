@@ -107,7 +107,7 @@ O objetivo deste projeto é criar dashboard de forma que exibam essas métricas 
 
 O painel estratégico foi desenvolvido utilizando as métricas que refletem as 5 principais visões do modelo de negócio da empresa:
 
-## 3.1. Geral:
+## 3.1. Geral
 
 1. Quantidade de países cadastrados
 2. Quantidade de cidades cadastradas
